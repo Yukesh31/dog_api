@@ -1,1 +1,52 @@
 
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: linear-gradient(purple, white);
+  }
+  .main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #btn_cat {
+    padding: 10px;
+    border-radius: 7px;
+  
+    background-image: linear-gradient(blue, pink);
+    transition: transform;
+  }
+  
+  #btn_cat:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    background: crimson;
+    
+  }
+  
+  #btn_cat:active {
+    transform: scale(0.95);
+    /* transition: 0.1s; */
+  }
+  
+  #cat,
+  img {
+    width: 25rem;
+    height: 25rem;
+  
+    background-image: linear-gradient(red, yellow);
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 1px 3px 10px black;
+  }
+  
+  .text_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
